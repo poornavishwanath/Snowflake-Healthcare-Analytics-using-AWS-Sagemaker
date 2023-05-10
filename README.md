@@ -5,6 +5,7 @@ healthcare services and patient outcomes, one important area is the analysis of 
 Length of stay is a critical metric in healthcare, as it can impact patient outcomes, healthcare costs, and
 hospital capacity. By analyzing patient LOS data, healthcare providers can identify opportunities to
 improve the delivery of care and reduce costs.
+
 In addition to improving patient outcomes, the analysis of patient LOS can also help healthcare providers
 to reduce costs. For example, by identifying patients who are at risk of extended LOS, providers can take
 proactive steps to ensure they receive the care they need in a timely manner. Overall, the analysis of
@@ -12,7 +13,7 @@ patient length of stay helped the providers to improve patient outcomes and redu
 data and advanced analytical techniques, healthcare providers can gain a deeper understanding of
 patient needs and identify opportunities to improve the delivery of care.
 
-###Tools and technologies: 
+### Tools and technologies: 
 Snowflake, Data preprocessing & Management, AWS Sagemaker and ML model
 1. Snowflake Worksheet
 2. EDA, Feature Engineering in Snowflake
@@ -23,7 +24,7 @@ such as - Linear Regression, Random Forest Regression, XGBoost Regression
 5. Using predictive modelling inserted model predictions in Snowflake. Scored function deployment and
 scheduling to send Status mail.
 
-###Main Steps
+### Main Steps
 1. Data Analysis in Snowflake
 2. Build a Machine Learning model to predict the length of stay for
 patients 
@@ -32,5 +33,5 @@ patients
 predictions to Snowflake 
 5. Send status mail
 
-###Tech Stack 
+### Tech Stack 
 AWS Sagemaker, Snowflake , Python Libraries: snowflake-connector-python, snowflakesqlalchemy, xgboost, pandas, numpy, scikit-learn
